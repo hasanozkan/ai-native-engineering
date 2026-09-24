@@ -23,6 +23,7 @@ seen to fail.
 | [4. Memory](playbook/04-memory.md) | An agent's memory as a versioned repository of one-fact files and an index |
 | [5. Approval boundaries](playbook/05-approval-boundaries.md) | What agents do without asking, what waits for a human |
 | [6. Failure patterns](playbook/06-failure-patterns.md) | Ten traps, each with a symptom and a counter |
+| [7. Observability as a gate](playbook/07-observability-as-a-gate.md) | Telemetry as a contract; dashboards and alerts checked against it; counting an agent's decisions where they are made |
 
 ## Templates
 
