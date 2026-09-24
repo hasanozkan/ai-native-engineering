@@ -7,7 +7,7 @@ run locally and runs again in CI.
 |---|---|---|
 | Branch name | the branch does not match `<type>/<card>-<kebab>` | [`tools/branch_name.py`](../tools/branch_name.py) |
 | Architecture | a module imports what it must not | import-linter / dependency-cruiser |
-| Traceability | a spec rule has no test, or a test cites no rule | see *spec-driven-ddd-sample* |
+| Traceability | a spec rule has no test, or a test cites no rule | see *spec-driven-ddd-python* |
 | Contract snapshot | an API changed but its committed snapshot did not | generated OpenAPI/AsyncAPI, diffed |
 | Secrets | a credential enters the history | gitleaks |
 | Memory hygiene | a memory file is malformed or missing from the index | [`tools/memory_lint.py`](../tools/memory_lint.py) |

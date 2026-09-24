@@ -50,7 +50,7 @@ make check      # lint, strict types, tests, the example memory, and a self-chec
 
 ## Companion
 
-[spec-driven-ddd-sample](https://github.com/hasanozkan/spec-driven-ddd-sample)
+[spec-driven-ddd-python](https://github.com/hasanozkan/spec-driven-ddd-python)
 shows the code side of the same approach: numbered spec rules traced to
 tests, bounded contexts that can only talk through events, and architecture
 enforced as build gates.
