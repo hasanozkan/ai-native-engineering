@@ -1,0 +1,3 @@
+- [Merges are human decisions](feedback_merges_are_human.md) — code/infra merges wait for an explicit "merge"; docs may auto-merge when green
+- [Negative control before trusting a gate](feedback_negative_control.md) — break the gate once and see red before relying on its green
+- [Deploy is a merge to main](reference_deploy_is_merge.md) — GitOps follows main-<timestamp>-<sha> images; tags do not deploy
